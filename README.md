@@ -6,7 +6,7 @@ Styx UI provides a set of accessible, reusable, and minimalist components. This 
 
 - `apps/docs`: Component Documentation
 - `packages/@styx-ui/react`: Core React Components
-- `packages/@styx-ui/eslint-config`: Shared ESLint Configuration
+- [`packages/@styx-ui/eslint-config`](https://github.com/harshcut/styx-ui/tree/main/packages/eslint-config): Shared ESLint Configuration
 - `packages/@styx-ui/tsconfig`: Shared TypeScript Configuration
 
 ## License
