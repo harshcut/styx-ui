@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.23.0",
+    "@styx-ui/eslint-config": "*",
     "eslint": "^8.18.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
