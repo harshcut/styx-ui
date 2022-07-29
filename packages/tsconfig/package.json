@@ -1,0 +1,34 @@
+{
+  "name": "@styx-ui/tsconfig",
+  "version": "0.0.0",
+  "description": "TSConfig by Styx UI",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "base",
+    "react",
+    "react-library"
+  ],
+  "homepage": "https://github.com/harshcut/styx-ui/tree/main/packages/tsconfig#readme",
+  "license": "MIT",
+  "author": "Harsh Karande (https://github.com/harshcut)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshcut/styx-ui.git",
+    "directory": "packages/tsconfig"
+  },
+  "scripts": {
+    "lint": "exit 0"
+  },
+  "peerDependencies": {
+    "typescript": "^3.0.0 || ^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
