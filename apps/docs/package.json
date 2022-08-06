@@ -1,0 +1,35 @@
+{
+  "name": "@styx-ui/docs",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Harsh Karande (https://github.com/harshcut)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshcut/styx-ui.git",
+    "directory": "apps/docs"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --no-ignore .storybook"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "@styx-ui/react": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.5.10",
+    "@storybook/addon-controls": "^6.5.10",
+    "@storybook/builder-vite": "^0.2.2",
+    "@storybook/react": "^6.5.10",
+    "@styx-ui/tsconfig": "*",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  }
+}

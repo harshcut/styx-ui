@@ -1,0 +1,5 @@
+{
+  "extends": "@styx-ui/tsconfig/react.json",
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
