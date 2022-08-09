@@ -1,14 +1,18 @@
-import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-
-const Button: React.FC<React.PropsWithChildren> = (props) => <button>{props.children}</button>
+import { Button, ButtonProps } from '@styx-ui/react'
 
 export default {
   title: 'Button',
   component: Button,
+  argTypes: {
+    width: {
+      options: ['full', 'auto', 'init'],
+      control: { type: 'select' },
+    },
+  },
 } as ComponentMeta<typeof Button>
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
+const Template: ComponentStory<typeof Button> = ({ ...args }: ButtonProps) => <Button {...args} />
 
 export const Default = Template.bind({})
-Default.args = { children: 'Hello Styx UI' }
+Default.args = { children: 'Hello Styx UI ✨' }
