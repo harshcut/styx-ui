@@ -25,6 +25,7 @@ export const { styled, css, globalCss, keyframes, getCssText, theme, createTheme
       },
       lineHeights: {
         md: 1.15,
+        xl: 3,
       },
       radii: {
         xs: '2px',
