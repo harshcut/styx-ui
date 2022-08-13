@@ -6,3 +6,6 @@ export { default as Button } from './button'
 
 export type { InputProps } from './input'
 export { default as Input } from './input'
+
+export type { KdbProps } from './kdb'
+export { default as Kdb } from './kdb'
