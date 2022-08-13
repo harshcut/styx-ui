@@ -1,6 +1,7 @@
-import { styled, VariantProps } from '../../stitches.config'
+import React from 'react'
+import { styled } from '../../stitches.config'
 
-export type ButtonProps = VariantProps<typeof Button>
+export type ButtonProps = React.ComponentPropsWithRef<typeof Button>
 
 const Button = styled('button', {
   appearance: 'button',

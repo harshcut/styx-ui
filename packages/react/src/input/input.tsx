@@ -1,6 +1,7 @@
-import { styled, VariantProps } from '../../stitches.config'
+import React from 'react'
+import { styled } from '../../stitches.config'
 
-export type InputProps = VariantProps<typeof Input>
+export type InputProps = React.ComponentPropsWithRef<typeof Input>
 
 const Input = styled('input', {
   appearance: 'textfield',
