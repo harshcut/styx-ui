@@ -9,3 +9,6 @@ export { default as Input } from './input'
 
 export type { KdbProps } from './kdb'
 export { default as Kdb } from './kdb'
+
+export type { LinkProps } from './link'
+export { default as Link } from './link'
