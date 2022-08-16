@@ -12,3 +12,6 @@ export { default as Kdb } from './kdb'
 
 export type { LinkProps } from './link'
 export { default as Link } from './link'
+
+export type { CheckboxProps } from './checkbox'
+export { default as Checkbox } from './checkbox'

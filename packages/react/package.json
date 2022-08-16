@@ -28,6 +28,10 @@
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-pattern dist"
   },
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.0.0",
+    "@radix-ui/react-label": "^1.0.0"
+  },
   "devDependencies": {
     "@stitches/react": "^1.2.8",
     "@styx-ui/tsconfig": "*",
