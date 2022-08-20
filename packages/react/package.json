@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.0",
-    "@radix-ui/react-label": "^1.0.0"
+    "@radix-ui/react-label": "^1.0.0",
+    "@radix-ui/react-radio-group": "^1.0.0"
   },
   "devDependencies": {
     "@stitches/react": "^1.2.8",
